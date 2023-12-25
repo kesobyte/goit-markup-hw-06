@@ -720,6 +720,7 @@ img {
   outline: transparent;
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 16px;
 }
 
 .modal-form-textarea:focus {
@@ -727,7 +728,7 @@ img {
 }
 
 .modal-acceptance {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 
 .modal-checkbox-label {
@@ -800,6 +801,7 @@ img {
   background-color: var(--iris);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .subscribe-btn-icon {
