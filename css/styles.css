@@ -754,6 +754,7 @@ img {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .modal-checkbox:checked + .modal-checkbox-label .privacy-check {
@@ -781,6 +782,16 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* Not included in GoIT, I just added based from Figma */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
+}
+
+/* Not included in GoIT, I just added based from Figma */
+.modal-form-button:hover,
+.modal-form-button:focus {
+  background-color: var(--ocean);
+  border: none;
 }
 
 /* HW6 */

@@ -659,7 +659,7 @@
           </svg>
         </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
-        <form>
+        <form name="contact-form">
           <!-- Name -->
           <div class="modal-form">
             <label class="modal-form-label" for="user-name">Name</label>
@@ -669,12 +669,14 @@
                 type="text"
                 id="user-name"
                 name="user-name"
+                required
               />
+              <!-- SVG height value was modified from 24 to 18 (should be the correct value)-->
               <svg
                 class="modal-form-input-icon"
                 xmlns="http://www.w3.org/2000/svg"
                 width="18"
-                height="24"
+                height="18"
                 fill="var(--slate)"
               >
                 <use href="./images/icons.svg#person-icon"></use>
@@ -691,6 +693,7 @@
                 type="tel"
                 id="user-phone"
                 name="user-phone"
+                required
               />
               <svg
                 class="modal-form-input-icon"
@@ -713,6 +716,7 @@
                 type="email"
                 id="user-email"
                 name="user-email"
+                required
               />
               <svg
                 class="modal-form-input-icon"
