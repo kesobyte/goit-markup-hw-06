@@ -762,10 +762,6 @@ img {
   fill: var(--cloud);
 }
 
-.modal-checkbox {
-  border-color: red;
-}
-
 .privacy-check-policy {
   color: var(--iris);
 }
