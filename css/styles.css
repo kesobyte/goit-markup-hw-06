@@ -762,6 +762,10 @@ img {
   fill: var(--cloud);
 }
 
+.modal-checkbox {
+  border-color: red;
+}
+
 .privacy-check-policy {
   color: var(--iris);
 }
@@ -770,11 +774,11 @@ img {
   display: block;
   min-width: 169px;
   height: 56px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04; 
+  letter-spacing: 0.04em;
   color: var(--white);
   cursor: pointer;
   background-color: var(--iris);
