@@ -727,16 +727,14 @@
           </div>
 
           <!-- Comment -->
-          <div class="modal-form">
+          <div class="modal-form-comment">
             <label class="modal-form-label" for="user-comment">Comment</label>
-            <div class="modal-form-div">
-              <textarea
-                class="modal-form-textarea"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+            <textarea
+              class="modal-form-textarea"
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
 
           <!-- Checkbox -->
@@ -755,14 +753,21 @@
                   xmlns="http://www.w3.org/2000/svg"
                   width="10"
                   height="8"
-                  fill="black"
                 >
                   <use
                     href="./images/icons.svg#checkbox-icon"
                   ></use></svg></span
               >I accept the terms and conditions of the
+              <link
+                class="privacy-check-policy"
+                rel="stylesheet"
+                href=""
+              />Privacy Policy
             </label>
           </div>
+
+          <!-- Submit Button -->
+          <button class="modal-form-button">Send</button>
         </form>
       </div>
     </div>
