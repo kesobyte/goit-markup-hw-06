@@ -756,7 +756,7 @@ img {
   fill: transparent;
 }
 
-.modal-checkbox:checked + .privacy-check {
+.modal-checkbox:checked + .modal-checkbox-label .privacy-check {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
